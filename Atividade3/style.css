@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(186, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #222;
+}
+
+.inpt{
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn{
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.lbl{
+    color: black;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.calculadora{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnLimpar{
+    background-color: tomato;
+}
+
+.resultado-maior{
+    color: green;
+    font-weight: bold;
+}
+
+.resultado-erro{
+    color: red;
+    font-weight: bold;
+}
