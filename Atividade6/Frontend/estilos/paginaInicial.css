@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(121, 179, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.container,
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela {
+    font-size: 22px;
+    background-color: white;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+.tabela2 {
+    background-color: white;
+    margin: 30px;
+    font-size: 22px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(43, 135, 255);
+}
+
+.linhas {
+    background-color: rgb(253, 255, 253);
+}
+
+.linhas2 {
+    padding: 10px;
+}
