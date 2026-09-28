@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: cadetblue;
+}
+
+th {
+    background-color: blue;
+}
+td, th {
+    padding: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: brown;
+}

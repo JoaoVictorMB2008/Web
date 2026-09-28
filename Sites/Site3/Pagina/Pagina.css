@@ -1,0 +1,33 @@
+body {
+    align-items: center;
+    background-color: beige;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    background-color:aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+\
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: aqua;
+}
+
+th {
+    background-color: blue;
+}
+
+td, th {
+    padding: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: blueviolet;
+}

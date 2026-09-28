@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5pxx;
+    width: 30%;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.email, .ano, .btn {
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+}
+
+.btn:hover{
+    background-color: aqua;
+}

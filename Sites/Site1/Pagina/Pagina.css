@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color:rgb(199, 199, 255);
+}
+
+th {
+    background-color: rgb(164, 255, 225);
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(247, 105, 105);
+}
